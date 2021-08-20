@@ -1,4 +1,5 @@
 const express = require('express');
+const db = require("./db");
 //const bodyParser = require('body-parser');
 const app = express();
 
@@ -6,6 +7,7 @@ const app = express();
 
 app.get('/', (req,res) => {
     res.send('Hello, World!')
+    db.getData()
 });
 
 app.listen('3000', () =>{
