@@ -1,9 +1,9 @@
 const cron = require('node-cron');
 const db = require('./db');
 
-let number = 7;
+let seconds = 1;
 db.connection();
 
-cron.schedule(`*/${number} * * * * *`, () =>{
+cron.schedule(`*/${seconds} * * * * *`, () =>{
     db.getData();
 })

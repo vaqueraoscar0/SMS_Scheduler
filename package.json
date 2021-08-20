@@ -1,7 +1,7 @@
 {
   "name": "sms_scheduler",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sends SMS Messages to a specific User at a specific time",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
