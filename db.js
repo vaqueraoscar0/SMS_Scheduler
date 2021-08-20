@@ -1,5 +1,5 @@
 const mysql = require('mysql');
-//const SMSMessage = require('./SMSMessage');
+const SMSMessage = require('./SMSMessage');
 
 //Creating a connection
 const con = mysql.createConnection({
