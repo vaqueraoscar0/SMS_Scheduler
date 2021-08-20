@@ -1,0 +1,25 @@
+{
+  "name": "sms_scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaqueraoscar0/SMS_Scheduler.git"
+  },
+  "keywords": [],
+  "author": "Oscar Vaquera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaqueraoscar0/SMS_Scheduler/issues"
+  },
+  "homepage": "https://github.com/vaqueraoscar0/SMS_Scheduler#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
