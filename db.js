@@ -2,6 +2,7 @@ const mysql = require('mysql');
 const SMSMessage = require('./SMSMessage');
 
 //Creating a connection
+//Crrrrrrrr
 const con = mysql.createConnection({
     host: 'localhost',
     user: 'YOUR USERNAME',
